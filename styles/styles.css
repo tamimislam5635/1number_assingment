@@ -2,13 +2,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #eafaf1; /* light greenish background */
-  color: #2f4f2f;       /* dark green text */
+  background: #eafaf1; 
+  color: #2f4f2f;       
 }
 
 /* ===== Header (Logo + Title) ===== */
 header {
-  background-color: #2e8b57; /* sea green */
+  background-color: #2e8b57; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -78,5 +78,22 @@ header img {
   height: 100px;
   object-fit: cover;
   margin-bottom: 10px;
+}
+/* ===== Newsletter Section ===== */
+.newsletter input[type="email"] {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #2e8b57; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
